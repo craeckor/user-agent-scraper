@@ -1,6 +1,18 @@
-$curlagentlist = Get-Content -Path .\curl-user-agents.txt
 $useragent = '-H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" -H "Accept-Language: en-US,en;q=0.5" -H "Cache-Control: no-cache"'
 $devicesite = "https://explore.whatismybrowser.com/useragents/explore/operating_platform_string/"
+$listhashurl = "https://raw.githubusercontent.com/craeckor/user-agent-scraper/main/curl-user-agents.txt.sha256"
+$listurl = "https://raw.githubusercontent.com/craeckor/user-agent-scraper/main/curl-user-agents.txt"
+$listhash = $(curl.exe -s -L $listhashurl)
+if (Test-Path .\curl-user-agents.txt) {
+    $listhashfile = Get-FileHash -Algorithm SHA256 -Path .\curl-user-agents.txt
+    if (!($listhashfile -eq $listhash)) {
+        Remove-Item -Force .\curl-user-agents.txt
+        curl.exe -s -L $listurl -o .\curl-user-agents.txt
+    }
+} else {
+    curl.exe -s -L $listurl -o .\curl-user-agents.txt
+}
+$curlagentlist = Get-Content -Path .\curl-user-agents.txt
 if (Test-Path .\device-links.txt) {
     Remove-Item -Force .\device-links.txt
 }
