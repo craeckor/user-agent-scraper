@@ -19,6 +19,8 @@ This script is able to scrape any (Free available) Device-User-Agent on [explore
 
 Scrape everything will take a looong time, since PowerShell isn't the best at parsing and format data.
 
+The settings.ini for the TOR IP Changer is preconfigured.
+
 ## Shout out
 
 to [seevik2580](https://github.com/seevik2580) for the [tor-ip-changer](https://github.com/seevik2580/tor-ip-changer).
