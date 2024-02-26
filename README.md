@@ -2,7 +2,7 @@
 
 Want to get some User-Agents for bypasses or AI-training? Noo problem, i got the solution for you!
 
-This script is able to scrape any (Free available) Device-User-Agent on [explore.whatismybrowser.com](https://explore.whatismybrowser.com/). This script is able to get a few Million Device-User-Agents from [explore.whatismybrowser.com](https://explore.whatismybrowser.com/).
+This script is able to scrape any (Free available) Device-User-Agent on [explore.whatismybrowser.com](https://explore.whatismybrowser.com/). This script is able to get a few hundreds of thousands Device-User-Agents from [explore.whatismybrowser.com](https://explore.whatismybrowser.com/).
 
 ## Setup
 
