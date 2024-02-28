@@ -17,7 +17,7 @@ This script is able to scrape any (Free available) Device-User-Agent on [explore
 
 ## Information
 
-Scrape everything will take a looong time, since PowerShell isn't the best at parsing and format data. On our system, it took 63 hours with a fibre-channel 1 gigabit connection and we got almost 300k Device-User-Agents.
+Scrape everything will take a looong time, since PowerShell isn't the best at parsing and format data. On our system, it took 63 hours with a fibre-channel 1 gigabit connection and we got almost 300k Device-User Agents.
 
 The settings.ini for the TOR IP Changer is preconfigured.
 
