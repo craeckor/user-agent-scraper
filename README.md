@@ -21,6 +21,12 @@ Scrape everything will take a looong time, since PowerShell isn't the best at pa
 
 The settings.ini for the TOR IP Changer is preconfigured.
 
+## Important
+
+Only for Educational Purpose.
+
+This project and the espacially the "[tor-ip-changer](https://github.com/seevik2580/tor-ip-changer)" are not viruses. Go and look at the code by yourself if you don't trust me.
+
 ## Shout out
 
 to [seevik2580](https://github.com/seevik2580) for the [tor-ip-changer](https://github.com/seevik2580/tor-ip-changer).
