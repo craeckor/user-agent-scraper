@@ -21,7 +21,7 @@ Scrape everything will take a looong time, since PowerShell isn't the best at pa
 
 The settings.ini for the TOR IP Changer is preconfigured.
 
-## Important
+## Disclaimer
 
 Only for Educational Purpose.
 
