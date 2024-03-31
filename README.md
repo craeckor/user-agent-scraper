@@ -25,7 +25,7 @@ The settings.ini for the TOR IP Changer is preconfigured.
 
 Only for Educational Purpose.
 
-This project and the espacially the "[tor-ip-changer](https://github.com/seevik2580/tor-ip-changer)" are not viruses. Go and look at the code by yourself if you don't trust me.
+This project and the espacially the "[tor-ip-changer](https://github.com/seevik2580/tor-ip-changer)" are not viruses. Go ahead and look at the code by yourself if you don't trust me.
 
 ## Shout out
 
