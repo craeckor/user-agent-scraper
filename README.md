@@ -23,7 +23,7 @@ The settings.ini for the TOR IP Changer is preconfigured.
 
 ## Disclaimer
 
-Only for Educational Purpose.
+Only for Educational Purposes.
 
 This project and the espacially the "[tor-ip-changer](https://github.com/seevik2580/tor-ip-changer)" are not viruses. Go ahead and look at the code by yourself if you don't trust me.
 
